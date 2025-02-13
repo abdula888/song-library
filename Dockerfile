@@ -9,4 +9,4 @@ COPY go.mod go.sum ./
 # Загружаем зависимости
 RUN go mod download
 
-CMD ["go", "run", "./cmd/effective-mobile/"]
+CMD ["go", "run", "./cmd/song-library/"]

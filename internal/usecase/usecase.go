@@ -1,13 +1,13 @@
 package usecase
 
 import (
-	"EffectiveMobile/internal/config"
-	"EffectiveMobile/internal/domain/entity"
-	"EffectiveMobile/internal/infrastructure/postgres/model"
-	"EffectiveMobile/pkg/api/audd"
-	"EffectiveMobile/pkg/api/lastfm"
-	"EffectiveMobile/pkg/log"
 	"encoding/json"
+	"song-library/internal/config"
+	"song-library/internal/domain/entity"
+	"song-library/internal/infrastructure/postgres/model"
+	"song-library/pkg/api/audd"
+	"song-library/pkg/api/lastfm"
+	"song-library/pkg/log"
 	"strconv"
 	"strings"
 	"time"

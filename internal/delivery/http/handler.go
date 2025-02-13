@@ -1,10 +1,10 @@
 package http
 
 import (
-	"EffectiveMobile/internal/domain/entity"
-	"EffectiveMobile/pkg/log"
 	"encoding/json"
 	"net/http"
+	"song-library/internal/domain/entity"
+	"song-library/pkg/log"
 
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"

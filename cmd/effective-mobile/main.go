@@ -1,9 +1,9 @@
 package main
 
 import (
-	"EffectiveMobile/internal/app"
-	"EffectiveMobile/internal/config"
 	"log"
+	"song-library/internal/app"
+	"song-library/internal/config"
 )
 
 // @title           Music Library

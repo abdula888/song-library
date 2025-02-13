@@ -1,9 +1,9 @@
 package repository
 
 import (
-	"EffectiveMobile/internal/domain/entity"
-	"EffectiveMobile/internal/infrastructure/postgres/model"
 	"errors"
+	"song-library/internal/domain/entity"
+	"song-library/internal/infrastructure/postgres/model"
 
 	"gorm.io/gorm"
 )

@@ -1,4 +1,4 @@
-module EffectiveMobile
+module song-library
 
 go 1.23.0
 

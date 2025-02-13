@@ -1,13 +1,13 @@
 package app
 
 import (
-	"EffectiveMobile/internal/config"
-	"EffectiveMobile/internal/delivery/http"
-	"EffectiveMobile/internal/infrastructure/postgres/repository"
-	"EffectiveMobile/internal/usecase"
-	"EffectiveMobile/migrations"
-	"EffectiveMobile/pkg/db/conn"
-	"EffectiveMobile/pkg/log"
+	"song-library/internal/config"
+	"song-library/internal/delivery/http"
+	"song-library/internal/infrastructure/postgres/repository"
+	"song-library/internal/usecase"
+	"song-library/migrations"
+	"song-library/pkg/db/conn"
+	"song-library/pkg/log"
 )
 
 func Run(conf *config.Config) {
